@@ -1,3 +1,6 @@
+![스크린샷 2023-08-22 232704](https://github.com/wkd6262/homework1/assets/142865132/acaf0ae8-327f-49eb-9a54-941e2fb0cd7c)
+
+
 230822
 
 -GIT 브랜치
