@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+h1 {
+  color: white;
+  background-color: skyblue;
+  font-size: 30px;
+  font-family: "배달의민족 주아", "맑은 고딕", "나눔고딕", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+div.text1 {
+  background-color: rgb(170, 165, 165);
+  text-align: center;
+}
+div.text1>p.h1 {
+  color: red;
+  text-decoration: underline;
+  font-size: 20px;
+}
+div.text1>p.hh1 {
+  color: red;
+}
+div.text1 >a {
+  background: #000;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: "배달의민족 주아", "맑은 고딕", "나눔고딕", sans-serif;
+}
+
+div.text2 {
+  background-color: rgb(236, 224, 206);
+}
+
+div.text2>p.h2 {
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+div.text2>p.h3 {
+  color: white;
+  background: skyblue;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+div.text2>p.h4 {
+  color: white;
+  background: skyblue;
+  text-align: right;
+  font-size: 18px;
+}
+div.text2>ul>li.li1 {
+  background-color: orange;
+}
+div.text2>ul>li.li2 {
+  background-color: orange;
+}
+div.text2>ol>li>p.p1 {
+  color: red;
+}
