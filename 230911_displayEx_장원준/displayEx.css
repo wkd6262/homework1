@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.gnb  {
+  text-transform: uppercase;
+  width: 50%;
+  margin: 0 auto;
+}
+.gnb a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.gnb li {
+  border: 3px solid black;
+  padding: 4px 6px;
+  font-size: 20px;
+  display: inline;
+  background-color: rgb(158, 150, 150);
+}
+a:hover {
+  color: red;
+}
+.gnb li:hover {
+  background-color: yellow;
+}
