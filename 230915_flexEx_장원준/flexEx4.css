@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.container {
+  display: flex;
+  border: 5px solid black;
+  height: 50vw;
+  flex-flow: column;
+  justify-content: flex-end;
+}
+
+ul.item {
+  list-style: none;
+  background-color: rgba(255, 0, 0, 0.651);
+  align-self: center;
+  width: 80%;
+  margin-bottom: 0;
+  padding-right: 5%
+}

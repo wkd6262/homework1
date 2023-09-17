@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+
+form {
+  border: 5px solid;
+  height: 100vw;
+  display: flex;
+  flex-flow: nowrap;
+}
+
+div.item1 {
+  background: orangered;
+  height: 50px; width: 50px;
+  text-align: center;
+  
+}
+div.item2 {
+  
+  background-color: rgb(231, 231, 153);
+  max-height: 30px; width: 100vw;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  height: 30px;
+}
+
+
+div.item3 {
+  background: rgba(0, 128, 0, 0.486);
+  height: 50px; width: 50px;
+  text-align: center;
+}
