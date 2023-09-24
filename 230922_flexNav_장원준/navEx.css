@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+*{padding:0;margin:0}
+li{list-style:none}
+a{text-decoration:none;}
+
+
+body {
+  margin: 0;
+  background-color: #ddd;
+}
+
+header h1{
+  margin: 0;
+  background-color: #590161;
+  height: 70px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  line-height: 70px;
+}
+
+ .menu {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  line-height: 40px;
+  height: 40px;
+}
+
+.menu li  a{
+  font-weight: bold;
+  color: black;
+  padding: 0 30px;
+  font-size: 22px;
+}
+
+
+.menu ul li a {
+  font-weight: normal;
+}
+
+.submenu {
+  height: 0; /*ul의 높이를 안보이게 처리*/
+  overflow: hidden;
+  background-color: yellow;
+  border-right: 1px solid;
+}
+
+
+.submenu4 {
+  border-right: none;
+}
+
+.menu > li:hover {
+  
+  background-color: #ffffff;
+  transition-duration: 0.5s;
+}
+
+.menu:hover .submenu {
+  height: 210px;
+  transition-duration: 0.5s;
+
+}
+
+.submenu > li:hover {
+  background-color: white;
+  transition-duration: 0.5s;
+}
+
+.submenu.submenu4:hover {
+  background-color: #fd0000;
+}
+.submenu.submenu3:hover {
+  background-color: #fd0000;
+}
+.submenu.submenu2:hover {
+  background-color: #fd0000;
+}
+.submenu.submenu1:hover {
+  background-color: #fd0000;
+}
+
+/*
+.menu li {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100px; height: 40px;
+  line-height: 40px;
+}
+
+ul li a{
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+} */
